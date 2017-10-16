@@ -1,0 +1,58 @@
+#not-found404{
+	background:$lightBlack;
+	color:$whiteColor;
+	padding:40px 0px;
+
+	img{
+		margin:20px auto;
+	}
+	h1{
+		margin-top:60px;
+		color:$yellowTextColor;
+		font-family: Lato;
+		font-size:180px;
+		font-weight: 700;
+	}
+	h2{
+
+		margin-top:60px;
+		color:$whiteColor;
+		font-family:Lato;
+		font-size:50px;
+		font-weight:300;
+		letter-spacing: 1px;
+	}
+	p{
+		margin-top:20px;
+		color:$silverColor;
+		font-family: Lato;
+		font-size:20px;
+		font-weight:300;
+
+	}
+	button{
+		@include button;
+
+	}
+
+	.btn-first{
+		@include btn-first;
+	}
+
+	.btn-second{
+		@include btn-second;
+	}
+
+	.pFooter{
+		color:$grayLight;
+		font-size:18px;
+		margin-top:70px;
+		opacity: 0.5;
+		a{
+			color:$grayLight;
+			&:hover{
+				color:lighten($yellowTextColor,10%);
+			}
+		}
+	}
+}

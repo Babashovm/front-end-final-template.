@@ -1,0 +1,67 @@
+//Media Screens
+/* smartphones, iPhone, ucun olculer 480x320 phones */
+@media (min-width:320px)  {  }
+/* Tabletler Ucun */
+@media (min-width:481px)  {  }
+/* Maximum olculer */
+@media (min-width:961px)  {  }
+
+
+// Reset Css for All Template
+*{
+	list-style:none;
+}
+.clear{
+	clear:both;
+}
+
+//Reset Css End
+
+
+
+//Mixins Start 
+
+
+@mixin button {
+		text-transform: uppercase;
+		margin-top:80px;
+		transition: all .5s ease;
+		padding-left:40px;
+		padding-right:40px;
+		padding-top:20px;
+		padding-bottom:20px;
+}
+
+@mixin btn-first{
+		background:$yellowTextColor;
+		margin-right:20px;
+		border-radius: 30px;
+		color:$whiteColor;
+		border:1px solid transparent;
+		font-size:20px;
+		font-weight:400;
+		font-family: Lato;
+		&:hover{
+			background:#15aecf;
+			color:$whiteColor;
+		}
+}
+@mixin btn-second{
+		background:transparent;
+		margin-right:20px;
+		border-radius: 30px;
+		color:$whiteColor;
+		border:2px solid white;
+		font-size:20px;
+		font-weight:400;
+		font-family: Lato;
+		&:hover{
+			background:$yellowTextColor;
+			color:$whiteColor;
+			border-color:$yellowTextColor;
+			   }
+			}
+
+//Mixins End
+
+

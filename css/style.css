@@ -1,0 +1,96 @@
+/* smartphones, iPhone, ucun olculer 480x320 phones */
+/* Tabletler Ucun */
+/* Maximum olculer */
+* {
+  list-style: none; }
+
+.clear {
+  clear: both; }
+
+#not-found404 {
+  background: #393a3c;
+  color: #fff;
+  padding: 40px 0px; }
+  #not-found404 img {
+    margin: 20px auto; }
+  #not-found404 h1 {
+    margin-top: 60px;
+    color: #f9ad40;
+    font-family: Lato;
+    font-size: 180px;
+    font-weight: 700; }
+  #not-found404 h2 {
+    margin-top: 60px;
+    color: #fff;
+    font-family: Lato;
+    font-size: 50px;
+    font-weight: 300;
+    letter-spacing: 1px; }
+  #not-found404 p {
+    margin-top: 20px;
+    color: #bfbfbf;
+    font-family: Lato;
+    font-size: 20px;
+    font-weight: 300; }
+  #not-found404 button {
+    text-transform: uppercase;
+    margin-top: 80px;
+    transition: all .5s ease;
+    padding-left: 40px;
+    padding-right: 40px;
+    padding-top: 20px;
+    padding-bottom: 20px; }
+  #not-found404 .btn-first {
+    background: #f9ad40;
+    margin-right: 20px;
+    border-radius: 30px;
+    color: #fff;
+    border: 1px solid transparent;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Lato; }
+    #not-found404 .btn-first:hover {
+      background: #15aecf;
+      color: #fff; }
+  #not-found404 .btn-second {
+    background: transparent;
+    margin-right: 20px;
+    border-radius: 30px;
+    color: #fff;
+    border: 2px solid white;
+    font-size: 20px;
+    font-weight: 400;
+    font-family: Lato; }
+    #not-found404 .btn-second:hover {
+      background: #f9ad40;
+      color: #fff;
+      border-color: #f9ad40; }
+  #not-found404 .pFooter {
+    color: #777;
+    font-size: 18px;
+    margin-top: 70px;
+    opacity: 0.5; }
+    #not-found404 .pFooter a {
+      color: #777; }
+      #not-found404 .pFooter a:hover {
+        color: #fbc271; }
+
+.coming-soon ul {
+  width: 1000px;
+  margin: 0 auto; }
+  .coming-soon ul li {
+    float: left; }
+  .coming-soon ul li:first-child {
+    border: 1px solid lightgray;
+    border-radius: 100%;
+    height: 100px;
+    width: 100px; }
+    .coming-soon ul li:first-child:after {
+      content: 'salam';
+      position: absolute;
+      width: 100px;
+      height: 100px;
+      border: 1px solid yellow;
+      border-radius: 100%; }
+
+/*# sourceMappingURL=style.css.map */

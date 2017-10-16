@@ -1,0 +1,15 @@
+@import 'common/common-classes';
+@import 'common/common-colors';
+@import 'home/head';
+@import 'home/navbar';
+@import 'home/termsHead';
+@import 'home/footer';
+
+.termsTextPadding{
+	margin:50px 0px;
+	h1{
+		font-weight:bolder;
+		font-size:18px;
+	}
+}
+

@@ -1,0 +1,46 @@
+#terms{
+background:url(../images/bg-breadcrumbs.jpg) center center no-repeat;
+background-size:cover;
+	
+	.container{
+		.row{
+			h1{
+				color:$whiteColor;
+				text-align:center;
+				font:60px/300px Lato;
+				font-weight:bolder;
+			}
+			.termsLinks{
+				display:block;
+				text-align:center;
+				margin-bottom:30px;
+				color:$whiteColor;
+				a{
+
+					margin-right:10px;
+					color:$yellowTextColor;
+
+					&:hover{
+						color:$lightBlue;
+						text-decoration: none;
+					}
+
+					
+
+					i{
+						margin-left:10px;
+						color:$grayLight;
+					}
+
+					
+				}
+
+				
+
+						
+					
+				
+			}
+		}
+	}
+}
